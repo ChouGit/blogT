@@ -32,5 +32,5 @@ jobs:
       - run: git add .
       - run: git config user.name "chougit"
       - run: git config user.email "553636989@qq.com"
-      - run: git commit -m "Updated by circleci - `TZ='Asia/Shanghai' `date`"
+      - run: git commit -m "Updated by circleci - `date`"
       - run: git push -q https://${gh_token}@github.com/chougit/blogT.git gh-pages:gh-pages
